@@ -14,6 +14,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=2.7',
-    install_requires=['thumbor'],
+    install_requires=['thumbor', 'ddtrace'],
 )
 
